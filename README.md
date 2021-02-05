@@ -17,3 +17,9 @@ This script is used to install all plugins, themes and setting to vim.
 * onedark<br>
 	* https://github.com/joshdick/onedark.vim
 
+## Usage 
+* Shorcuts:
+	* Ctrl + n - toggles NERDTree
+	* AltGr + t - opens terminal
+	* F4 - previous tab
+	* F6 - next tab
