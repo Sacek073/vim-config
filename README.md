@@ -17,6 +17,11 @@ This script is used to install all plugins, themes and setting to vim.
 * onedark<br>
 	* https://github.com/joshdick/onedark.vim
 
+## Instalation
+* Clone this repository
+* $ chmod +x installer.sh
+* ./installer.sh (no need to be root)
+
 ## Usage 
 * Shorcuts:
 	* Ctrl + n - toggles NERDTree
