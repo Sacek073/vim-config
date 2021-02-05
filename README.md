@@ -10,6 +10,8 @@ This script is used to install all plugins, themes and setting to vim.
 	* https://github.com/itchyny/lightline.vim
 * vim-polyglot<br>
 	* https://github.com/sheerun/vim-polyglot 
+* NERDTree<br>
+	* https://github.com/preservim/nerdtree
 
 ## Theme
 * onedark<br>
