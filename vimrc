@@ -1,7 +1,12 @@
+" Press F7 to toggle highlighting on/off, and show current value.
+:noremap <F7> :set hlsearch! hlsearch?<CR>
+
 "mouse mode
 set mouse=a
+
 "nové okno při splitu jde doprava
 set splitbelow splitright
+
 "zkratky
 :map ŧ :vert term<CR>
 
@@ -29,4 +34,4 @@ set noshowmode
 colorscheme onedark
 let g:lightline = {
 	\ 'colorscheme': 'onedark',
-	\ }
+  \  }
