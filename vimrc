@@ -9,6 +9,7 @@ set splitbelow splitright
 
 "zkratky
 :map ŧ :vert term<CR>
+:map <C-i> :IndentGuidesToggle<CR>
 
 "pohybování se mezi taby
 set switchbuf=usetab
@@ -24,6 +25,9 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 " Exit Vim if NERDTree is the only window left.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
+
+"indent guide
+let g:indent_guides_enable_on_vim_startup = 1
 
 "vzhled
 set number
