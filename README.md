@@ -12,6 +12,8 @@ This script is used to install all plugins, themes and setting to vim to my liki
 	* https://github.com/sheerun/vim-polyglot 
 * NERDTree<br>
 	* https://github.com/preservim/nerdtree
+* Indent guides
+	* https://github.com/nathanaelkane/vim-indent-guides
 
 ## Theme
 * onedark<br>
@@ -32,3 +34,4 @@ chmod +x installer.sh
 	* F4 - previous tab
 	* F6 - next tab
 	* F7 - toggle highlighting in search
+	* Ctrl + i - toggles indent guide (in normal mode)
