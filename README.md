@@ -31,3 +31,4 @@ chmod +x installer.sh
 	* AltGr + t - opens terminal
 	* F4 - previous tab
 	* F6 - next tab
+	* F7 - toggle highlighting in search
