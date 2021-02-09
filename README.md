@@ -1,7 +1,7 @@
 # vim-config
 This script is used to install all plugins, themes and setting to vim to my liking. 
 
-![look](https://github.com/Sacek073/vim-config/blob/master/pics/look.jpg)
+![look2](https://github.com/Sacek073/vim-config/blob/master/pics/look2.jpg)
 
 ## Plugins used:
 * Auto-pairs<br>
