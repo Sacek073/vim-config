@@ -35,3 +35,4 @@ chmod +x installer.sh
 	* F6 - next tab
 	* F7 - toggle highlighting in search
 	* Ctrl + i - toggles indent guide (in normal mode)
+	* 9 - end of line (mapped as $)
