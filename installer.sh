@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# remove old files
+rm -rf ~/.vim
+rm -f ~/.vimrc
+
 # light line
 git clone https://github.com/itchyny/lightline.vim ~/.vim/pack/plugins/start/lightline
 
@@ -10,5 +14,4 @@ git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/ner
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 
 mv files/* ~/.vim
-rm ~/.vimrc
 cp vimrc ~/.vimrc
