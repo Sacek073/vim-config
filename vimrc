@@ -36,7 +36,15 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_start_level = 2
 
 "vzhled
-set number
+"set number
+:set number relativenumber
+
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+:augroup END
+
 set tabstop=2
 set laststatus=2
 syntax on
