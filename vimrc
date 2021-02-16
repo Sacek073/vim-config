@@ -10,7 +10,6 @@ set splitbelow splitright
 "zkratky
 map ŧ :vert term<CR>
 map <C-i> :IndentGuidesToggle<CR>
-map 9 $
 
 "pohybování se mezi taby
 set switchbuf=usetab

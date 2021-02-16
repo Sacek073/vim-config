@@ -1,4 +1,4 @@
-# vim-config
+
 This script is used to install all plugins, themes and setting to vim to my liking. 
 
 ![look2](https://github.com/Sacek073/vim-config/blob/master/pics/look2.jpg)
@@ -35,4 +35,3 @@ chmod +x installer.sh
 	* F6 - next tab
 	* F7 - toggle highlighting in search
 	* Ctrl + i - toggles indent guide (in normal mode)
-	* 9 - end of line (mapped as $)
