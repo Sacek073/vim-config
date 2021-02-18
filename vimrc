@@ -9,7 +9,7 @@ set splitbelow splitright
 
 "zkratky
 map ŧ :vert term<CR>
-map <C-i> :IndentGuidesToggle<CR>
+noremap <F9> :IndentGuidesToggle<CR>
 
 "pohybování se mezi taby
 set switchbuf=usetab
