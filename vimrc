@@ -23,6 +23,7 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 "autocmd BufWinEnter * silent NERDTreeMirror
 
 "Save foldnig and load folding
+autocmd BufWrite *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
 " Exit Vim if NERDTree is the only window left.
