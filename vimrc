@@ -9,7 +9,7 @@ set splitbelow splitright
 
 "zkratky
 map ŧ :vert term<CR>
-map <C-i> :IndentGuidesToggle<CR>
+map <F9> :IndentGuidesToggle<CR>
 
 "pohybování se mezi taby
 set switchbuf=usetab
@@ -17,14 +17,12 @@ nnoremap <F4> :sbnext<CR>
 nnoremap <F6> :sbprevious<CR>
 
 "NERDTree
-nnoremap <F9> :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 
 " Open the existing NERDTree on each new tab.
 "autocmd BufWinEnter * silent NERDTreeMirror
 
 "Save foldnig and load folding
-"autocmd BufWinLeave *.* mkview
-autocmd BufWrite *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
 " Exit Vim if NERDTree is the only window left.
