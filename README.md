@@ -36,4 +36,5 @@ chmod +x installer.sh
 	* F4 - previous tab
 	* F6 - next tab
 	* F7 - toggle highlighting in search
+	* F8 - toggle AutoComplPop
 	* F9 - toggles indent guide (in normal mode)

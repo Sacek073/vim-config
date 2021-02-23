@@ -1,6 +1,19 @@
 " Press F7 to toggle highlighting on/off, and show current value.
 :noremap <F7> :set hlsearch! hlsearch?<CR>
 
+" Press F8 to toggle auticompletion
+let $acp_tog=1
+function Acp_toggle()
+  if $acp_tog==1
+    :exe "AcpDisable"
+    let $acp_tog=0
+  else
+    :exe "AcpEnable"
+    let $acp_tog=1
+  endif
+endfunction
+:noremap <F8> :call Acp_toggle()<CR>
+
 "mouse mode
 set mouse=a
 
