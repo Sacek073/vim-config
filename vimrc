@@ -17,17 +17,17 @@ endfunction
 "mouse mode
 set mouse=a
 
-"nové okno při splitu jde doprava
+"new split window position
 set splitbelow splitright
 
-"zkratky
+"shortcuts
 map ŧ :vert term<CR>
 map <F9> :IndentGuidesToggle<CR>
 
-"pohybování se mezi taby
-set switchbuf=usetab
-nnoremap <F4> :sbnext<CR>
-nnoremap <F6> :sbprevious<CR>
+"tab switchig
+nnoremap <F4> gT
+nnoremap <F6> gt
+
 
 "NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>
@@ -52,8 +52,7 @@ let g:indent_guides_start_level = 1
 set ignorecase
 set smartcase
 
-"vzhled
-"set number
+"appearance
 :set number relativenumber
 
 :augroup numbertoggle
