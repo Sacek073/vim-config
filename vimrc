@@ -1,6 +1,7 @@
 " Press F7 to toggle highlighting on/off, and show current value.
 :noremap <F7> :set hlsearch! hlsearch?<CR>
 
+
 " Press F8 to toggle auticompletion
 let $acp_tog=1
 function Acp_toggle()
@@ -29,8 +30,9 @@ nnoremap <F4> gT
 nnoremap <F6> gt
 
 " Copy paste from and to vim
-vnoremap <C-y> "*y :let @+=@*<CR>
-map <C-p> "+p
+" vnoremap <C-y> "*y :let @+=@*<CR>
+" map <C-p> "+p
+set clipboard=unnamedplus
 
 "NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>

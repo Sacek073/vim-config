@@ -42,5 +42,5 @@ chmod +x installer.sh
 	* ```F7``` - toggle highlighting in search
 	* ```F8``` - toggle AutoComplPop
 	* ```F9``` - toggles indent guide (in normal mode)
-	* ```Ctrl + p``` - paste text copied normally
-	* ```Ctrl + y``` - copy text to by pasted normally
+	[//]: #* ```Ctrl + p``` - paste text copied normally
+	[//]: #* ```Ctrl + y``` - copy text to by pasted normally
