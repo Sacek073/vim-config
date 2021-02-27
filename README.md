@@ -18,6 +18,8 @@ This script is used to install all plugins, themes and setting to vim to my liki
 	* https://github.com/vim-scripts/AutoComplPop
 * Vim Commentary
 	* https://github.com/tpope/vim-commentary
+* Vim Surround
+	* https://github.com/tpope/vim-surround
 
 ## Theme
 * onedark<br>
@@ -33,10 +35,12 @@ chmod +x installer.sh
 
 ## Usage 
 * Shorcuts:
-	* Ctrl + n - toggles NERDTree
-	* AltGr + t - opens terminal
-	* F4 - previous tab
-	* F6 - next tab
-	* F7 - toggle highlighting in search
-	* F8 - toggle AutoComplPop
-	* F9 - toggles indent guide (in normal mode)
+	* ```Ctrl + n``` - toggles NERDTree
+	* ```AltGr + t``` - opens terminal
+	* ```F4``` - previous tab
+	* ```F6``` - next tab
+	* ```F7``` - toggle highlighting in search
+	* ```F8``` - toggle AutoComplPop
+	* ```F9``` - toggles indent guide (in normal mode)
+	* ```Ctrl + p``` - paste text copied normally
+	* ```Ctrl + y``` - copy text to by pasted normally
