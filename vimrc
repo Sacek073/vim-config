@@ -24,7 +24,7 @@ set splitbelow splitright
 "shortcuts
 map ŧ :vert term<CR>
 map <F9> :IndentGuidesToggle<CR>
-
+map M :!make; xdg-open proj1.pdf<CR>
 "tab switchig
 nnoremap <F4> gT
 nnoremap <F6> gt
@@ -66,6 +66,7 @@ set smartcase
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
 
+set cursorline
 set tabstop=2
 set laststatus=2
 syntax on
