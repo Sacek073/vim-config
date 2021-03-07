@@ -20,6 +20,8 @@ This script is used to install all plugins, themes and setting to vim to my liki
 	* https://github.com/tpope/vim-commentary
 * Vim Surround
 	* https://github.com/tpope/vim-surround
+* Vim Gitgutter
+	* https://github.com/airblade/vim-gitgutter
 
 ## Theme
 * onedark<br>
