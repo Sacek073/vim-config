@@ -34,6 +34,9 @@ nnoremap <F6> gt
 " map <C-p> "+p
 set clipboard=unnamedplus
 
+" change dir to dir of actual file
+set autochdir
+
 "NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>
 
@@ -67,7 +70,8 @@ set smartcase
 :augroup END
 
 set cursorline
-set tabstop=2
+set tabstop=4
+set shiftwidth=4
 set laststatus=2
 syntax on
 set noshowmode
