@@ -28,6 +28,9 @@ map <F9> :IndentGuidesToggle<CR>
 nnoremap <F4> gT
 nnoremap <F6> gt
 
+"search for visual selection
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
 " Copy paste from and to vim
 " vnoremap <C-y> "*y :let @+=@*<CR>
 " map <C-p> "+p
