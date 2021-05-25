@@ -14,6 +14,10 @@ git clone --depth 1 https://github.com/sheerun/vim-polyglot ~/.vim/pack/plugins/
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 
+# indentLine
+git clone https://github.com/Yggdroot/indentLine.git ~/.vim/pack/vendor/start/indentLine
+vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLine/doc" -c "q"
+
 mv files/* ~/.vim
 cp vimrc ~/.vimrc
 
