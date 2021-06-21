@@ -23,7 +23,6 @@ set splitbelow splitright
 
 "shortcuts
 map ŧ :vert term<CR>
-map <F9> :IndentGuidesToggle<CR>
 "tab switchig
 nnoremap <F4> gT
 nnoremap <F6> gt
