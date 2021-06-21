@@ -1,7 +1,6 @@
+This script is used to install all plugins, themes and setting to vim to my liking.
 
-This script is used to install all plugins, themes and setting to vim to my liking. 
-
-![look2](https://github.com/Sacek073/vim-config/blob/master/pics/look2.jpg)
+![look2](https://github.com/Sacek073/vim-config/blob/master/pics/look2.png)
 
 ## Plugins used:
 * Auto-pairs<br>
@@ -9,11 +8,11 @@ This script is used to install all plugins, themes and setting to vim to my liki
 * Lightline<br>
 	* https://github.com/itchyny/lightline.vim
 * vim-polyglot<br>
-	* https://github.com/sheerun/vim-polyglot 
+	* https://github.com/sheerun/vim-polyglot
 * NERDTree<br>
 	* https://github.com/preservim/nerdtree
-* Indent guides
-	* https://github.com/nathanaelkane/vim-indent-guides
+* indentLine
+	* https://github.com/Yggdroot/indentLine
 * AutoComplPop
 	* https://github.com/vim-scripts/AutoComplPop
 * Vim Commentary
@@ -35,7 +34,7 @@ chmod +x installer.sh
 ./installer.sh
 ```
 
-## Usage 
+## Usage
 * Shorcuts:
 	* ```Ctrl + n``` - toggles NERDTree
 	* ```AltGr + t``` - opens terminal
@@ -43,7 +42,3 @@ chmod +x installer.sh
 	* ```F6``` - next tab
 	* ```F7``` - toggle highlighting in search
 	* ```F8``` - toggle AutoComplPop
-	* ```F9``` - toggles indent guide (in normal mode)
-	* commented out:
-		* ```Ctrl + p``` - paste text copied normally
-		* ```Ctrl + y``` - copy text to by pasted normally
