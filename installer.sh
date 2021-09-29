@@ -21,6 +21,12 @@ vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLine/doc" -c "q"
 mv files/* ~/.vim
 cp vimrc ~/.vimrc
 
+# Vim Bundle + you complete me
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+cd ~/.vim/bundle/YouCompleteMe
+python3 install.py --clangd-completer
+
 # Vim commentary
 mkdir -p ~/.vim/pack/tpope/start
 cd ~/.vim/pack/tpope/start

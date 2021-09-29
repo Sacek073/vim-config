@@ -13,8 +13,8 @@ This script is used to install all plugins, themes and setting to vim to my liki
 	* https://github.com/preservim/nerdtree
 * indentLine
 	* https://github.com/Yggdroot/indentLine
-* AutoComplPop
-	* https://github.com/vim-scripts/AutoComplPop
+* YouCompleteMe
+	* https://github.com/ycm-core/YouCompleteMe
 * Vim Commentary
 	* https://github.com/tpope/vim-commentary
 * Vim Surround
