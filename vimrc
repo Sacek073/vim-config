@@ -7,6 +7,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " plugin on GitHub repo
 Plugin 'ycm-core/YouCompleteMe'
+highlight YcmErrorLine guibg=#ff0505
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -17,6 +18,9 @@ set completeopt-=preview
 " Press F7 to toggle highlighting on/off, and show current value.
 :noremap <F7> :set hlsearch! hlsearch?<CR>
 
+nmap gn <Plug>(GitGutterNextHunk)
+nmap gp <Plug>(GitGutterPrevHunk)
+nmap gh <Plug>(GitGutterPreviewHunk)
 
 " Press F8 to toggle auticompletion
 let $acp_tog=1
@@ -93,6 +97,8 @@ set smartcase
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
 
+:set lcs=tab:\¦\⠀
+set list
 set cursorline
 set tabstop=4
 set shiftwidth=4
@@ -103,3 +109,4 @@ colorscheme onedark
 let g:lightline = {
 	\ 'colorscheme': 'onedark',
   \  }
+
