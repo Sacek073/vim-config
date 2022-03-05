@@ -45,6 +45,11 @@ cd ~/.vim/pack/airblade/start
 git clone https://github.com/airblade/vim-gitgutter.git
 vim -u NONE -c "helptags vim-gitgutter/doc" -c q
 
+# Vim repeat
+mkdir -p ~/.vim/pack/tpope/start
+cd ~/.vim/pack/tpope/start
+git clone https://tpope.io/vim/repeat.git
+
 #Setting for YCM
 rm ~/.vim/bundle/YouCompleteMe/python/ycm/vimsupport.py
 cp ./vimsupport.py ~/.vim/bundle/YouCompleteMe/python/ycm/vimsupport.py
