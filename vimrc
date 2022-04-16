@@ -102,6 +102,13 @@ set list
 set cursorline
 set tabstop=4
 set shiftwidth=4
+
+
+set expandtab
+set softtabstop=0
+set smarttab
+set colorcolumn=80
+
 set laststatus=2
 syntax on
 set noshowmode
