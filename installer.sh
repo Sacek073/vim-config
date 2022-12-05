@@ -50,6 +50,6 @@ mkdir -p ~/.vim/pack/tpope/start
 cd ~/.vim/pack/tpope/start
 git clone https://tpope.io/vim/repeat.git
 
-#Setting for YCM
-rm ~/.vim/bundle/YouCompleteMe/python/ycm/vimsupport.py
-cp ./vimsupport.py ~/.vim/bundle/YouCompleteMe/python/ycm/vimsupport.py
+# Setting for YCM not needed anymore
+# rm ~/.vim/bundle/YouCompleteMe/python/ycm/vimsupport.py
+# cp ./vimsupport.py ~/.vim/bundle/YouCompleteMe/python/ycm/vimsupport.py
