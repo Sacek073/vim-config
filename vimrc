@@ -1,6 +1,7 @@
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+set belloff=all
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -107,7 +108,7 @@ set shiftwidth=4
 set expandtab
 set softtabstop=0
 set smarttab
-set colorcolumn=80
+" set colorcolumn=80
 
 set laststatus=2
 syntax on
@@ -117,3 +118,6 @@ let g:lightline = {
 	\ 'colorscheme': 'onedark',
   \  }
 
+" Conceal
+let g:indentLine_setConceal = 2
+let g:indentLine_concealcursor = "nc"
