@@ -16,8 +16,8 @@ filetype plugin indent on    " required
 
 set completeopt-=preview
 
-" Press F7 to toggle highlighting on/off, and show current value.
-:noremap <F7> :set hlsearch! hlsearch?<CR>
+" Press F9 to toggle highlighting on/off, and show current value.
+:noremap <F9> :set hlsearch! hlsearch?<CR>
 
 nmap gn <Plug>(GitGutterNextHunk)
 nmap gp <Plug>(GitGutterPrevHunk)
