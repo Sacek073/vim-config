@@ -123,7 +123,7 @@ let g:lightline = {
 
 " Conceal
 let g:indentLine_setConceal = 2
-let g:indentLine_concealcursor = "nc"
+let g:indentLine_concealcursor = ""
 
 " soft-break words
 set linebreak
