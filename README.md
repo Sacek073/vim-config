@@ -31,6 +31,7 @@ This script is used to install all plugins, themes and setting to vim to my liki
 ## Installation
 If you have already some changes in ```.vimrc``` file, please create a backup of this file and after installation paste the changes into newly created ```.vimrc```. In the instalation process the old file is deleted and then new created. ```.vim``` folder is also deleted during Instalation.
 ```
+sudo apt install cmake build-essential python3-dev
 git clone https://github.com/Sacek073/vim-config
 chmod +x installer.sh
 ./installer.sh
