@@ -21,6 +21,10 @@ vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLine/doc" -c "q"
 mv files/* ~/.vim
 cp vimrc ~/.vimrc
 
+# funguje s wl-clipboard (na COSMIC nefunguje synchronizace s gvimem)
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vim +PlugInstall +qall
+
 # Vim Bundle + you complete me
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall

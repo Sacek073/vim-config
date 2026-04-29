@@ -17,6 +17,11 @@ highlight YcmErrorLine guibg=#ff0505
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Pro wl-clipboard - synchronizace
+call plug#begin()
+Plug 'jasonccox/vim-wayland-clipboard'
+call plug#end()
+
 set completeopt-=preview
 
 " Press F9 to toggle highlighting on/off, and show current value.
